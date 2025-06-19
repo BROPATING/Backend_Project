@@ -1,0 +1,48 @@
+npm init
+
+git ignore generator
+
+JS having two types of import 
+common js and module
+    // In module.js
+    const myDefaultValue = "Hello";
+    export default myDefaultValue;
+
+    // In anotherFile.js
+    import customName from './module.js';
+
+go to package.json 
+  "type": "module"
+
+nodemon it automatically restart the server without being failed
+ Why? ===> when run in npm run dev or start it runs but problem is
+           when you make any changes in code it doesn't reflect the change 
+           to reflect it you need to restart the project, the solution for this is 
+           nodemon
+
+nodemon install two ways:
+ dependency and dev dependency
+    dev dependency ---> used for development not in produciton
+
+sahil@Sahil MINGW64 ~/Desktop/BackEnd/Project
+$ npm i -D nodemon
+
+see in package.json 
+ "devDependencies": {
+    "nodemon": "^3.1.10"
+ }
+
+Now, go to scripts in package.json
+    edit it 
+    from : 
+        "scripts": {
+            "test": "bla bla bla"
+        }
+    to : 
+        "scripts": {
+            "dev": "nodemon src/index.js"
+         }
+
+sahil@Sahil MINGW64 ~/Desktop/BackEnd/Project
+$ npm i -D prettier
+It helps for team to build projects on same platform it is plugin 
