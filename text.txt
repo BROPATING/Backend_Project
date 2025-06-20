@@ -46,3 +46,19 @@ Now, go to scripts in package.json
 sahil@Sahil MINGW64 ~/Desktop/BackEnd/Project
 $ npm i -D prettier
 It helps for team to build projects on same platform it is plugin 
+
+For data base connection go to 
+mongo db atlas (atlas is a sub service provided by mongo db which provide online db)
+
+sahil@Sahil MINGW64 ~/Desktop/BackEnd/Project (main)
+$ npm i mongoose express dotenv
+
+Sometimes Problems happen in data base so 2 approaches:
+ 1. wrap the db in try catch or promise (resolve or reject)
+ 2. Require time use async wait
+
+Mine Data Base:
+ Username: BROPATING
+ Password : SAHIL123
+ link: mongodb+srv://BROPATING:SAHIL123@cluster0.ne6fthe.mongodb.net
+CAUTION: remove "/" in last 
