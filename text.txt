@@ -62,3 +62,17 @@ Mine Data Base:
  Password : SAHIL123
  link: mongodb+srv://BROPATING:SAHIL123@cluster0.ne6fthe.mongodb.net
 CAUTION: remove "/" in last 
+
+As early as possible in your application, import and configure dotenv
+such that all the environment variables are available to all the files 
+Go to package.json to do experiment
+ "scripts": {
+    "dev": "nodemon -r dotev/config --experimental-json-modules src/index.js"
+  }, 
+  Throw error not handling
+  "scripts": {
+    "dev": "nodemon -r dotev/config src/index.js"
+  },
+
+When any change in .env file you want to again restart the file 
+mean nodemon will not identify the change 
