@@ -76,3 +76,30 @@ Go to package.json to do experiment
 
 When any change in .env file you want to again restart the file 
 mean nodemon will not identify the change 
+
+Cookies are small text files that websites store on your computer or other devices to 
+remember information about you and your browsing activity. 
+They help websites remember things like your login details, shopping cart contents,
+or preferences, making your browsing experience more convenient and personalized. 
+
+A "cookie parser" is a middleware that, in the context of web development 
+(often within Node.js frameworks like Express), handles the parsing of HTTP cookies. 
+It takes the incoming cookies sent in the HTTP request, processes them, and makes 
+them readily available for use within your application logic. 
+
+CORS, or Cross-Origin Resource Sharing, is a browser security mechanism that 
+controls how web pages can make requests to a different domain than the one 
+that served the page.
+
+We use app.use when we use middleware or configuration setting
+
+sahil@Sahil MINGW64 ~/Desktop/BackEnd/Project (main)
+$ npm i cookie-parser cors
+
+ctr + space to see other options
+
+When search in google it add the string in the url 
+Ex. porsche 911 then in url ...porsche+911 or sometime %20 is there
+For this we use app.use(express.urlencoded({}))
+
+Search nodejs api error => it gives the error class
