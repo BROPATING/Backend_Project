@@ -103,3 +103,16 @@ Ex. porsche 911 then in url ...porsche+911 or sometime %20 is there
 For this we use app.use(express.urlencoded({}))
 
 Search nodejs api error => it gives the error class
+
+Model Link ----> https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+
+Moongose Agrregate pipeline => 
+https://www.npmjs.com/package/mongoose-aggregate-paginate-v2
+npm i mongoose-aggregate-paginate-v2
+
+Becrypt library => 
+https://www.npmjs.com/package/bcrypt
+npm i bcrypt
+
+JsonWebToken => 
+npm i jsonwebtoken
