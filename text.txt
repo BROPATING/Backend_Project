@@ -116,3 +116,17 @@ npm i bcrypt
 
 JsonWebToken => 
 npm i jsonwebtoken
+
+sahil@Sahil MINGW64 ~/Desktop/BackEnd/Project (main)
+$ npm i cloudinary 
+Cloudinary is a cloud-based service that provides a platform for managing, 
+optimizing, and delivering images and videos for websites and mobile applications. 
+It offers a range of features including upload, storage, manipulation, optimization, 
+and delivery of visual media.
+
+sahil@Sahil MINGW64 ~/Desktop/BackEnd/Project (main)
+$ npm i multer
+Multer is a Node.js middleware designed to handle multipart/form-data, 
+primarily used for uploading files to a server. 
+It simplifies the process of receiving and managing file uploads in 
+web applications built with frameworks like Express. 
