@@ -1,6 +1,7 @@
 // require('dotenv').config({path: './env'}); // It reduces the overall consistency of the code.
 import dotenv from 'dotenv';
 import connectDB from "./db/index.js";
+import { app } from "./app.js"; // ✅ Important fix
 
 dotenv.config({
     path: './env'

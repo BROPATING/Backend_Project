@@ -130,3 +130,11 @@ Multer is a Node.js middleware designed to handle multipart/form-data,
 primarily used for uploading files to a server. 
 It simplifies the process of receiving and managing file uploads in 
 web applications built with frameworks like Express. 
+
+// route import
+import userRouter from './routes/user.routes.js';
+
+// routes decalration 
+app.use("/users", userRouter);
+//https://localhost:8000/users/register
+router.route("/register").post(registerUser);
