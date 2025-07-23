@@ -4,7 +4,7 @@ import connectDB from "./db/index.js";
 import { app } from "./app.js"; // ✅ Important fix
 
 dotenv.config({
-    path: './env'
+    path: './.env'
 });
 
 connectDB()  // It returns the promise
