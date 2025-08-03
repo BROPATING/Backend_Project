@@ -138,3 +138,16 @@ import userRouter from './routes/user.routes.js';
 app.use("/users", userRouter);
 //https://localhost:8000/users/register
 router.route("/register").post(registerUser);
+
+A refresh token is a special credential used to obtain new access tokens, 
+allowing users to stay authenticated without repeatedly logging in. 
+
+An access token is a credential that allows an application or user to access 
+protected resources or services
+
+A cookie, in the context of the internet, is a small piece of data that a website 
+stores on a user's computer or mobile device. 
+It's like a digital "note" that helps websites remember information about users, 
+such as login details, preferences, or browsing history. 
+This information helps websites personalize the user experience a
+nd make it more convenient for repeat visits. 
