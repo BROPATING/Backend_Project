@@ -151,3 +151,7 @@ It's like a digital "note" that helps websites remember information about users,
 such as login details, preferences, or browsing history. 
 This information helps websites personalize the user experience a
 nd make it more convenient for repeat visits. 
+
+
+Aggregation pipeline 
+https://www.mongodb.com/docs/manual/core/aggregation-pipeline/
