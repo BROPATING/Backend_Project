@@ -116,7 +116,7 @@ const loginUser = asyncHandler(async (req, res) => {
             throw new ApiError(400, "User not found");
         }
 
-        const isValidPassword = await user.isPassWordCorrect(password);
+        const isValidPassword = await user.isPasswordCorrect(password);
 
         if (!isValidPassword) {
             throw new ApiError(401, "Invalid Password");
@@ -170,7 +170,7 @@ const logoutUser = asyncHandler(async(req, res) => {
         req.user._id,
         {
             $set: {
-                refreshToken: undefined,
+                refreshToken: 1,
             }
         },
         {
